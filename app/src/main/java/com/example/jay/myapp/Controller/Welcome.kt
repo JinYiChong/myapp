@@ -1,8 +1,9 @@
-package com.example.jay.myapp
+package com.example.jay.myapp.Controller
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.jay.myapp.R
 import kotlinx.android.synthetic.main.activity_welcome.*
 
 class Welcome : AppCompatActivity() {

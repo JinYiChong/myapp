@@ -1,4 +1,4 @@
-package com.example.jay.myapp
+package com.example.jay.myapp.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

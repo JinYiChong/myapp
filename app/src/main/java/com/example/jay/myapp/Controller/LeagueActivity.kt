@@ -1,10 +1,11 @@
-package com.example.jay.myapp
+package com.example.jay.myapp.Controller
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.example.jay.myapp.Utility.EXTRA_LEAGUE
+import com.example.jay.myapp.R
 import kotlinx.android.synthetic.main.activity_league.*
 
 class LeagueActivity : BaseActivity() {
@@ -44,4 +45,5 @@ class LeagueActivity : BaseActivity() {
     } else {
         Toast.makeText(this, "Please select a league.", Toast.LENGTH_SHORT).show()
     } }
+
 }
